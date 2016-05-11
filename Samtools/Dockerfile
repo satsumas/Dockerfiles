@@ -1,6 +1,7 @@
 # Documentation example
 
 FROM ubuntu
+
 MAINTAINER "Kate Hodesdon" kate.hodesdon@sbgenomics.com
 
 RUN apt-get -y update && apt-get install -y wget build-essential zlib1g-dev libncurses5-dev \
